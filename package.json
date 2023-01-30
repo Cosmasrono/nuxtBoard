@@ -1,0 +1,35 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.3.0",
+    "nuxt": "^3.1.0"
+  },
+  "dependencies": {
+    "@nuxt/image": "^0.7.1",
+    "axios": "^1.2.5",
+    "server": "^1.0.38",
+    "vue-carousel": "^0.18.0",
+    "vue-slick-carousel": "^1.0.6"
+  },
+  "name": "nuxt",
+  "description": "Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "version": "1.0.0",
+  "main": "youtube.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cosmasrono/nuxtBoard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cosmasrono/nuxtBoard/issues"
+  },
+  "homepage": "https://github.com/Cosmasrono/nuxtBoard#readme"
+}
