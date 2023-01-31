@@ -1,8 +1,7 @@
 <template> 
   <main class=" bg-zinc-800 text-white">
-  <div>
+  
+    <NuxtPage/> 
    
-    <NuxtPage/>
-  </div>
   </main>
   </template>

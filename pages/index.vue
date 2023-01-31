@@ -2,27 +2,165 @@
   <main class=" ">
     <div class=" flex items-center justify-center flex-col ">
       <div class=" text-xl flex gap-8  justify-end">
-      <nuxt-link to="">code</nuxt-link>
+      <nuxt-link to="">codes</nuxt-link>
       <nuxt-link to="">Languages</nuxt-link>
       <nuxt-link to="">videos</nuxt-link>
       <nuxt-link to="">Category</nuxt-link>
-      <nuxt-link to=""></nuxt-link>
+     
       </div>
-<div id="default-carousel" class="relative" data-carousel="static">
+ <img src="../assets/image1.jpg" alt="" class=" h-1/2 w-screen m-4 p-4">
+      <!-- <div class="">
+        <carousel :per-page="3" :navigation-enabled="true" :pagination-enabled="true">
+          <slide v-for="(item, index) in items" :key="index">
+            <img :src="item.image" alt="item image">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+          </slide>
+        </carousel>
+      </div>
+  -->
+    </div>
+  
+    <div class=" gap-5 m-3 flex-col grid p-12 ">
+      <div class="  p-6 flex flex-row  text-white rounded-lg shadow">
+        <div class="sm:flex-row">
+         <a href="#">
+             <h5 class="mb-2 text-2xl font-bold tracking-tight  dark:text-white">THE NUXT</h5>
+         </a>
+         <p class="mb-3 font-normal ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+         <a href="https://nuxt.com/docs/getting-started/introduction" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+             Read more
+         </a>
+         </div>
+         <div class="">
+           <img src="../assets/photo.jpg" class=" w-full sm:w-1/2 mb-4 sm:mb-0 " alt="">
+         </div>
+</div>
+
+<div class="  p-6 flex flex-row  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+ <div class="">
+  <a href="#">
+      <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">THE VUE</h5>
+  </a>
+  <p class="mb-3 font-normal text-white ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+  <a href="https://nuxt.com/docs/getting-started/introduction" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+      Read more
+  </a>
+  </div>
+  <div class="">
+    <img src="../assets/photo.jpg" class=" w-full sm:w-1/2 mb-4 sm:mb-0"  alt="">
+  </div>
+</div>
+
+<div class="  p-6 flex flex-row  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <div class="">
+   <a href="#">
+       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">DJANGO</h5>
+   </a>
+   <p class="mb-3 font-normal text-white ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+   <a href="https://nuxt.com/docs/getting-started/introduction" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+       Read more
+   </a>
+   </div>
+   <div class="">
+     <img src="../assets/photo.jpg" class=" w-full sm:w-1/2 mb-4 sm:mb-0" alt="">
+   </div>
+ </div>
+ <div class="  p-6 flex flex-row rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <div class="">
+   <a href="#">
+       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">THE PYTHON</h5>
+   </a>
+   <p class="mb-3 font-normal text-white">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+   <a href="https://nuxt.com/docs/getting-started/introduction" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+       Read more
+   </a>
+   </div>
+   <div class="">
+     <img src="../assets/photo.jpg" class=" w-full sm:w-1/2 mb-4 sm:mb-0" alt="">
+   </div>
+ </div>
+ <div class="  p-6 flex flex-row  rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+  <div class="">
+   <a href="#">
+       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">DATA SCIENCE</h5>
+   </a>
+   <p class="mb-3 font-normal text-white ">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+   <a href="https://nuxt.com/docs/getting-started/introduction" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+       Read more
+   </a>
+   </div>
+   <div class="">
+     <img src="../assets/photo.jpg" class=" w-full sm:w-1/2 mb-4 sm:mb-0" alt="">
+   </div>
+ </div>
+ <div class="  p-6 flex flex-row shadow dark:bg-gray-800 dark:border-gray-700">
+  <div class="">
+   <a href="#">
+       <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">BOOTSTRAP</h5>
+   </a>
+   <p class="mb-3 font-normal text-white">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+   <a href="https://nuxt.com/docs/getting-started/introduction" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+       Read more
+   </a>
+   </div>
+   <div class="">
+     <img src="../assets/photo.jpg" class=" w-full sm:w-1/2 mb-4 sm:mb-0" alt="">
+   </div>
+ </div>
+<div class="  p-6 flex flex-row  shadow dark:bg-gray-800 dark:border-gray-700">
+  <div class=" sm:flex-row">
+   <a href="#">
+       <h5 class="mb-2 text-2xl font-bold tracking-tight  text-white">TAILWIND</h5>
+   </a>
+   <p class="mb-3 font-normal text-white">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+   <a href="https://nuxt.com/docs/getting-started/introduction" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+       Read more
+   </a>
+   </div>
+   <div class="">
+     <img src="../assets/photo.jpg" class=" w-full sm:w-1/2 mb-4 sm:mb-0" alt="">
+   </div>
+ </div>
+</div>
+
+     
+    <div class=" flex flex-col items-center justify-center m-3">
+    <h2>THE VUE</h2>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto assumenda quae deleniti doloremque vero porro iste omnis tempore molestias beatae? Modi ab quos obcaecati, veritatis aspernatur quo hic pariatur illo!
+    </div>
+    <div class=" flex flex-col items-center justify-center m-3 ">
+    <h1>PYTHON</h1>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus amet suscipit facilis! Nihil, in illo! Libero placeat ad eos facere, accusamus, vero velit, praesentium error quis minima eum labore accusantium. 
+    </div>
+    <div class=" flex flex-col items-center justify-center m-3  "> 
+    <h1>DATA SCIENCE</h1>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse possimus suscipit adipisci voluptatum maiores inventore, error fuga quos accusantium nisi doloribus hic quod sequi nam accusamus fugit? Cum, obcaecati sequi?
+     </div>
+     <div class=" flex flex-col items-center justify-center m-3  ">
+     <h1>BOOTSTRAP</h1>
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem ratione iusto itaque rem, tenetur assumenda a harum? Maiores, blanditiis. Laborum laboriosam deserunt nemo ad veniam delectus reprehenderit molestias et!
+     </div>
+     <div class=" flex flex-col items-center justify-center m-3 ">
+     <h1>DJANGO</h1>
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel itaque saepe minus sit accusamus facere harum corporis! Odio nesciunt, sit eveniet recusandae explicabo voluptatibus natus animi! Non laborum possimus dolor!
+    </div>
+
+<!-- <div id="default-carousel" class="relative" data-carousel="static">
   
   <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
       
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <span class="absolute text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 sm:text-3xl dark:text-gray-800">First Slide</span>
-          <img src="./assets.image1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="../assets/image1.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
      
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="/docs/images/carousel/carousel-2.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="../assets/image3.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
        
       <div class="hidden duration-700 ease-in-out" data-carousel-item>
-          <img src="/docs/images/carousel/carousel-3.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+          <img src="../assets/image4.jpg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
       </div>
   </div>
   
@@ -45,61 +183,8 @@
       </span>
   </button>
 </div>
-      <!-- <div class="">
-        <carousel :per-page="3" :navigation-enabled="true" :pagination-enabled="true">
-          <slide v-for="(item, index) in items" :key="index">
-            <img :src="item.image" alt="item image">
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.description }}</p>
-          </slide>
-        </carousel>
-      </div>
-  -->
-    </div>
-    <div class=" flex flex-col items-center justify-center m-3  md:left-24 hover:inset-3">
-      
-
-
-
-
-<div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-  <a href="#">
-      <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-  </a>
-  <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-  <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-      Read more
-      <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-  </a>
-</div>
-
-      <h>THE NUXT</h>
-    
-      Build your next Vue.js application with confidence using Nuxt. An open source framework under MIT license that makes web development simple and powerful.    </div>
-    <div class=" flex flex-col items-center justify-center m-3">
-    <h2>THE VUE</h2>
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto assumenda quae deleniti doloremque vero porro iste omnis tempore molestias beatae? Modi ab quos obcaecati, veritatis aspernatur quo hic pariatur illo!
-    </div>
-    <div class=" flex flex-col items-center justify-center m-3 ">
-    <h1>PYTHON</h1>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus amet suscipit facilis! Nihil, in illo! Libero placeat ad eos facere, accusamus, vero velit, praesentium error quis minima eum labore accusantium. 
-    </div>
-    <div class=" flex flex-col items-center justify-center m-3  "> 
-    <h1>DATA SCIENCE</h1>
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse possimus suscipit adipisci voluptatum maiores inventore, error fuga quos accusantium nisi doloribus hic quod sequi nam accusamus fugit? Cum, obcaecati sequi?
-     </div>
-     <div class=" flex flex-col items-center justify-center m-3  ">
-     <h1>BOOTSTRAP</h1>
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quidem ratione iusto itaque rem, tenetur assumenda a harum? Maiores, blanditiis. Laborum laboriosam deserunt nemo ad veniam delectus reprehenderit molestias et!
-     </div>
-     <div class=" flex flex-col items-center justify-center m-3 ">
-     <h1>DJANGO</h1>
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel itaque saepe minus sit accusamus facere harum corporis! Odio nesciunt, sit eveniet recusandae explicabo voluptatibus natus animi! Non laborum possimus dolor!
-    </div>
-
-
    
-
+ -->
   </main>
 </template>
 
